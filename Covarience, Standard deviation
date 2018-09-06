@@ -1,0 +1,7 @@
+Midterm=c(82,80,88,64,69,79,97,75,98,88,93,87,86,83,85,83,98,100,77,77)
+Final=c(81,55,22,57,89,87,82,85,78,89,91,76,81,80,85,80,83,99,39,52)
+cov(Midterm,Final)
+sd(Midterm)
+sd(Final)
+cor(Midterm,Final)
+plot(Midterm,Final,main = "score")

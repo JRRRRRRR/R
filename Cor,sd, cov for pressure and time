@@ -1,0 +1,8 @@
+Pressure=c(40,130,155,160,260,275,325,370,420,480)
+Time=c(2.5,3,3.1,3.3,3.7,4.1,4.3,4.8,5,5.4)
+mean(Pressure)
+mean(Time)
+cov(Pressure,Time)
+sd(Pressure)
+sd(Time)
+cor(Pressure,Time)

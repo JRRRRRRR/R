@@ -1,0 +1,5 @@
+For Poisson_𝜆_,
+Probability distribution:
+     >dpois(x, 𝜆)
+cdf:
+     >ppois(x, 𝜆)

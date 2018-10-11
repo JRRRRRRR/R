@@ -1,0 +1,12 @@
+For Exponential_λ_,
+𝑃_𝑋<𝑐_ 𝑐>0Ʉ
+     >pexp(c, 1/ λ)
+100𝑝th percentile:
+      >qexp(p, 1/ λ)
+
+For example：
+𝑃_𝑋≥2_:
+>1-pexp(2, 1/3)
+
+𝑃_1≤𝑋≤2_:
+>pexp(2,1/3)-pexp(1, 1/3)

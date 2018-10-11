@@ -1,0 +1,15 @@
+For Uniform_𝑎, 𝑏_,
+𝑃_𝑋<𝑐_ for 𝑎<𝑐<𝑏:
+     >punif(c, a, b)
+100𝑝th percentile:
+>qunif(p, a, b)
+
+For Uniform_0, 1_,
+𝑃_𝑋<𝑐_ for 0<𝑐<1:
+     >punif(c)
+100𝑝th percentile:
+>qunif(p)
+
+For example：
+𝑃_1≤𝑋≤4_:		   	     𝑃_𝑋≥6_:
+>punif(4, 0, 10)-punif(1, 0, 10) 	     >1-punif(6, 0, 10)

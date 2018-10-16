@@ -1,0 +1,11 @@
+For 𝑁(𝜇,𝜎2),
+cdf:
+     >pnorm(x, 𝜇,𝜎)
+100𝑝-th percentile:
+     >qnorm(p, 𝜇,𝜎)
+
+For 𝑁(0,1),
+cdf:
+     >pnorm(x)
+100𝑝-th percentile:
+     >qnorm(p)

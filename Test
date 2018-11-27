@@ -1,0 +1,13 @@
+Finding the p-value using R: 
+>1-pt(2.206, 4)
+0.046176
+
+Conducting a test For Example 8.9 using R:
+>x=c(98,117,102,111,109)
+>t.test(x, mu=100, alt=”greater”)
+Default significance level is 0.05.
+
+Constructing a CI obtained in Example 8.8 using R:
+>x=c(8.9,8.6,8.0,8.3,8.8,8.6,8.1,7.2,8.0,8.6,9.1,9.0,9.1,8.3,7.9)
+>t.test(x)  # for a 95% CI
+> t.test(x,conf.level=0.90) # for a 90% CI

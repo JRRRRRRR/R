@@ -1,0 +1,22 @@
+Example 8.10: 820 voters support a certain candidate out of a random sample of 1500 people in a presidential election poll. 
+Find a 95% confidence interval for the support rate of this candidate. 
+
+
+Using R,
+>prop.test(820, 1500, correct=F)
+
+Example 8.12:  A concerned group of citizens want to show that less than a half of the voters support the President's handling 
+of a recent crisis.  A random sample of 500 voters gives 228 in support.  Does this provide strong evidence for concluding that
+fewer than a half of all voters support the President's handling of the crisis?  Conduct a hypothesis test using 𝛼=0.01
+
+
+Using R,
+>prop.test(228, 500, p=0.5, alt=”less”, correct=F, conf.level=0.01)
+
+Example 8.15:  The length of a certain type of screw is acceptable only if 𝜎≤0.6 mm.  Use 𝛼=0.05 to test _𝐻_0_: 𝜎=0.6 mm 
+against _𝐻_1_: 𝜎>0.6 mm, if the thicknesses of 16 screws of such a type have a standard deviation of 0.75 mm.
+
+
+Using R,
+>1-pchisq(23.44,15)
+0.07523417
